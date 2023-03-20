@@ -1,6 +1,15 @@
 # Grade curricular e pré-requisitos
-## 1º Periodo
 
+* Formação Básica Obrigatória: 1350h; 
+* Formação Tecnológica Obrigatória: 960h;
+* Formação Humanística e Complementar Obrigatória: 60h;
+* Formação Gerencial Obrigatória: 240h;
+* Estágio Curricular Supervisionado: 300h;
+* Seminário de Introdução ao Curso: 15h;
+* Formação Tecnológica Optativa Obrigatória: 120h; 
+* Atividades Complementares: 120h.
+
+## 1º Periodo
 | PERIODO | DISCIPLINA | PRE-REQUISITO |
 | -- | -- | -- |
 | 1|SEMINÁRIO DE INTRODUÇÃO AO CURSO |  |
