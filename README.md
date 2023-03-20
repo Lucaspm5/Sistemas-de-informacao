@@ -1,2 +1,2 @@
-# Sistemas-de-informa-o
+# Sistemas-de-informação
 Grade curricular e pré-requisitos
