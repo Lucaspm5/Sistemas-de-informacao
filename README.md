@@ -1,4 +1,4 @@
-# Sistemas-de-informação
+# Grade curricular e pré-requisitos
 ## 1º Periodo
 
 | PERIODO | DISCIPLINA | PRE-REQUISITO |
