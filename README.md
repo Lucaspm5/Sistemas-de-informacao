@@ -1,4 +1,5 @@
-# Grade curricular e pré-requisitos
+# Avaliações e exercicios feitos ao longo do curso
+## Grade curricular e pré-requisitos
 
 * Formação Básica Obrigatória: 1350h; 
 * Formação Tecnológica Obrigatória: 960h;
