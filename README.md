@@ -54,11 +54,11 @@
 | PROGRAMAÇÃO PARA WEB 1	 | POO 1|
 | REDES DE COMPUTADORES 1 |SO|
 
+## 5º Período
 <html>
   <head>
   </head>
   <body>
-    <h1>5º Período</h1>
     <table>
       <tr>
         <th>Disciplina</th>
@@ -96,7 +96,7 @@
   </body>
 </html>
 
-<h3>6º Período</h3>
+## 6º Período
 <table>
   <tr>
     <th>Disciplina</th>
@@ -128,7 +128,7 @@
   </tr>
 </table>
 
-<h2>7º Período</h2>
+## 7º Período
 <table>
   <tr>
     <th>Disciplina</th>
@@ -152,9 +152,9 @@
   </tr>
 </table>
 
+## 8º Período
   </head>
   <body>
-    <h1> 8º Período</h1>
     <table>
       <thead>
         <tr>
