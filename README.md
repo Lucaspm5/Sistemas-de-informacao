@@ -1,4 +1,5 @@
 # Avaliações e exercicios feitos ao longo do curso
+
 ## Grade curricular e pré-requisitos
 
 * Formação Básica Obrigatória: 1350h; 
@@ -179,6 +180,12 @@
 # Bônus
 | Optativa I | Optativa II |
 | -- | -- |
+
+<div>
+  <img src="https://user-images.githubusercontent.com/125845662/229120319-145d6732-34b1-4d3e-b04c-1604288fc8c9.png" style="height: 300px; float: left;">
+  <img src="https://user-images.githubusercontent.com/125845662/229119583-dc625c5e-6cb8-4ae5-a13c-6d18be1b6896.png" style="height: 300px; float: left;">
+  <div style="clear: both;"></div>
+</div>
 
 # CARGA HORÁRIA TOTAL DO CURSO: 3.165 hrs
 
