@@ -8,13 +8,13 @@ int main()
     int cont = 0, soma = 0, maior = 0, media = 0, menor = INT_MAX;
     int *auxiliary = NULL;
 
-    auxiliary = (int*)calloc(cont, sizeof(int));
-
     while(scanf("%d", &X))
     {
         if (X == -1) break;
-        else
+        else {
+            auxiliary = realloc(auxiliary, (cont + 1) * sizeof(int));
             *(auxiliary + cont++) = X; 
+        }
     }
     
     for (int i = 0;i < cont;i++)
@@ -27,10 +27,12 @@ int main()
 
     media = soma / cont;
 
-    printf("%d\n",soma);
-    printf("%d\n",media);
-    printf("%d - %d\n",menor, maior);
+    printf("Soma - %d\n",soma);
+    printf("Media - %d\n",media);
+    printf("Menor: %d - Maior: %d\n",menor, maior);
 
+
+    printf("vetor: ");
     for (int i = 0;i < cont;i++)
         printf("%d ",*(auxiliary + i));
 
