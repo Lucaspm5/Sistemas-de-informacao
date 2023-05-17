@@ -51,7 +51,7 @@ int main()
 
     produtos_zerados = obtem_produtos_zerados(codigo, estoque, size, &qtd_zerados);
 
-    for (int i = 0;i < qtd_zerados;i++)
+    for (unsigned i = 0;i < qtd_zerados;i++)
         printf("%d ", *(produtos_zerados + i));
     
     free(codigo);
