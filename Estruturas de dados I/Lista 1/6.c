@@ -2,6 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+#define alocar(x,size) x =  (char*)malloc(size * sizeof(char))
+#define ENT(x) scanf("%[^\n]", x)
+
 char *nova_string(char *s1, char *s2, int size, int *ptr)
 {
     int size1 = strlen(s1);
@@ -39,19 +42,18 @@ int main()
     int size = 1000;
     int new_size = 0;
 
-    s1 = (char*)malloc(size*sizeof(char));
-    s2 = (char*)malloc(size*sizeof(char));
+    alocar(s1, size);
+    alocar(s2, size);
 
-    scanf("%[^\n]", s1);
+    ENT(s1);
     scanf("%*c");
-    scanf("%[^\n]", s2);
+    ENT(s2);
 
     auxiliary = nova_string(s1, s2, size, &new_size);
 
     for (int i = 0;i < new_size;i++)
         printf("%c",*(auxiliary + i));
     
-
     free(s1);
     free(s2);
     free(auxiliary);
