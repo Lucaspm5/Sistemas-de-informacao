@@ -2,6 +2,11 @@
 #include <stdlib.h>
 
 #define size 10
+#define alocacao(x, size) x = (int*)malloc(size * sizeof(int))
+#define READ(x, size) do { \
+        for (unsigned i = 0;i < size;i++) \
+            scanf("%d",&*(x + i)); \
+    }while(0)
 
 int *obtem_produtos_zerados(int *codigo, int *estoque, int n, int *qtd_zerados)
 {
@@ -35,14 +40,11 @@ int main()
     int *codigo = NULL;
     int *estoque = NULL;
 
-    codigo = (int*)malloc(size * sizeof(int));
-    estoque = (int*)malloc(size * sizeof(int));
+    alocacao(codigo, size);
+    alocacao(estoque, size);
 
-    for (int i = 0;i < size;i++)
-        scanf("%d", &*(codigo + i));
-        
-    for (int i = 0;i < size;i++)
-        scanf("%d", &*(estoque + i));
+    READ(codigo, size);
+    READ(estoque, size);
 
     int qtd_zerados = 0;
     int *produtos_zerados = NULL;
@@ -50,7 +52,7 @@ int main()
     produtos_zerados = obtem_produtos_zerados(codigo, estoque, size, &qtd_zerados);
 
     for (int i = 0;i < qtd_zerados;i++)
-        printf("%d", *(produtos_zerados + i));
+        printf("%d ", *(produtos_zerados + i));
     
     free(codigo);
     free(estoque);
