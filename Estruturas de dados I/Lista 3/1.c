@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define size 30
+#define size 100
+#define MATRIZ(x, value) *(*(x + i) + j) = value;
 
 typedef struct
 {
@@ -21,7 +22,7 @@ void retangulo(int **matriz, int inicio_retangulo, int tamanho_retangulo)
 {
     for (int i = inicio_retangulo; i < inicio_retangulo + tamanho_retangulo; i++) {
         for (int j = inicio_retangulo; j < inicio_retangulo + tamanho_retangulo; j++)
-            *(*(matriz + i) + j) = 1;
+            MATRIZ(matriz, 1);
     }
 }
 
@@ -30,7 +31,7 @@ void circulo(int **matriz, Ponto centro, int raio)
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size; j++) {
             if (sqrt(pow(i - centro.x, 2) + pow(j - centro.y, 2)) <= raio)
-                *(*(matriz + i) + j) = 2;
+                MATRIZ(matriz, 2);
         }
     }
 }
