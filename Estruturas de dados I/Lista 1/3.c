@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define ent(x,y) scanf("%d %d",&x,&y)
+
 int expoencial(int x, int expoente)
 {   
     if (x == 1 || expoente == 0) return 1;
@@ -14,7 +16,7 @@ int main()
 {
     int N, expoente;
 
-    scanf("%d %d", &N, &expoente);
+    ent(N, expoente);
 
     printf("%d\n",expoencial(N,expoente));
 
