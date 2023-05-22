@@ -1,0 +1,11 @@
+Django: Um framework de web em Python rápido e limpo. Segue o princípio DRY e tem muitos recursos prontos. Usado em sites como Instagram e Pinterest
+
+Flask: Um microframework de web em Python leve e fácil. Tem uma estrutura simples que ajuda a criar aplicativos rapidamente. Usado em projetos pequenos e médios e em empresas como Netflix e LinkedIn
+
+Web2Py: Um framework full-stack de web em Python. Tem muitos recursos prontos e é fácil de usar. Pode ser executado em qualquer sistema operacional sem instalação ou configuração
+
+Bottle: Um microframework de web em Python leve e fácil. Tem uma estrutura simples que ajuda a criar aplicativos rapidamente. Usado para prototipagem e aplicativos pessoais simples
+
+CherryPy: Um framework minimalista de web em Python. Fornece uma estrutura básica para construir aplicativos web e dá mais controle aos desenvolvedores. Usado em projetos pequenos e médios
+
+Esses frameworks facilitam o desenvolvimento de web em Python, fornecendo estrutura e recursos que economizam tempo e aumentam a segurança e a confiabilidade dos aplicativos.

@@ -1,0 +1,4 @@
+Linguagem interpretada é aquela que o código fonte é executado por um interpretador, que lê e executa o código linha por linha. Isso significa que o código não é traduzido para uma linguagem de máquina ou de baixo nível antes da execução.
+Linguagem compilada é aquela que o código fonte é traduzido para uma linguagem de máquina ou de baixo nivel por um compilador. O codigo é executado diretamente pelo hardware.
+
+A diferença é que os programas compilados tendem a ser mais rápidos do que os programas interpretados, pois o código ja foi traduzido para uma linguagem que o hardware pode executar.
