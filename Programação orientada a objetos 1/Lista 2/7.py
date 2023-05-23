@@ -1,10 +1,8 @@
 def binario(decimal):
-    binario = ''
-    while decimal > 0:
-        resto = decimal % 2
-        binario = str(resto) + binario #concateno
-        decimal //= 2
-    return binario
+    if decimal == 0:
+        return ''
+    else:
+        return binario(decimal // 2) + str(decimal % 2)
 #---------------------------
 decimal = int(input('Digite um número decimal: '))
 
