@@ -12,7 +12,7 @@ int main()
 
     srand((unsigned)time(NULL));
 
-    printf ("Informe a linha e a coluna, esses valores devem ser pares e simetricos\n");
+    printf ("Informe a linha e a coluna, esses valores devem ser pares\n");
     printf ("Informe 0, em uma das entradas para parar\n");
 
     while (scanf("%d %d", &m, &n) == 2 && (m != 0 || n != 0))
@@ -21,6 +21,11 @@ int main()
         {
             carro[i][0] = rand() % m;
             carro[i][1] = rand() % n;
+            while (carro[i][0] >= m || carro[i][1] >= n)
+            {
+                carro[i][0] = rand() % m;
+                carro[i][1] = rand() % n;
+            }
         }
 
         int submatriz_x = m / 4;
