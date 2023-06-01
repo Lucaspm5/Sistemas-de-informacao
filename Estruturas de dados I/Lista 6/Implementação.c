@@ -1,5 +1,5 @@
 #include "Prototipo.h"
-//----
+
 void adiciona_pessoa(Pessoa** adiciona, int* new_size)
 {  
     int i = 0;
