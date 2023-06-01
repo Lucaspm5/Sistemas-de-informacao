@@ -8,7 +8,6 @@ int main()
 
     Pessoa* dados = calloc(count, sizeof(Pessoa)); 
 
-
     printf("1-Cadastrar\n");
     printf("2-Buscar altura\n");
     printf("3-Remover\n");
@@ -62,7 +61,6 @@ int main()
                 else printf("Pessoa não encontrada\n");
                 
                 break;
-
             }  
             default:
                 printf("ERRO!\n");
