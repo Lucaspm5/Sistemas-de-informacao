@@ -1,33 +1,15 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-void retorna(int *a, int *b)
-{
-    int maior = *a;
-    int menor = *b;
-
-    bool auxiliary = (maior > menor);
-
-    if (auxiliary)
-    {
-        *a = maior;
-        *b = menor; 
-    }else{
-        *a = menor;
-        *b = maior;
-    }
+void comparar(int* a, int* b) {
+    int maior = (*a > b) ? *a : *b;
+    int menor = (*a < b) ? *a : *b;
+    *a = maior;
+    *b = menor;
 }
 
-
-int main()
-{
-    int A, B;
-
-    scanf("%d %d",&A ,&B);
-
-    retorna(&A,&B);
-
-    printf("Maior - %d Menor - %d",A,B);
-
+int main() {
+    int a = 4, b = 5;
+    comparar(&a, &b);
+    printf("Maior - %d | Menor - %d", a, b);
     return 0;
 }
